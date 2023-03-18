@@ -1,0 +1,13 @@
+{
+    // other settings..
+    "compilerOptions": {
+      // other compiler options...
+      "esModuleInterop": true,
+ //      "module": "ESNext", // "module": "CommonJS" should work too
+      //"module": "CommonJS",
+      "module": "commonjs",  
+      "moduleResolution": "Node"
+    },
+    "include": ["/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
